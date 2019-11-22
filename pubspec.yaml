@@ -5,7 +5,10 @@ author: Gurleen Sethi <sarusethi@rocketmail.com>
 homepage: http://www.github.com/gurleensethi
 
 dependencies:
-  http_middleware: "^1.0.0"
+  http_middleware:
+    git:
+      url: git://github.com/pavelhouzva/http_middleware.git
+      ref: master
 
 environment:
   sdk: ">=2.0.0-dev.28.0 <3.0.0"
